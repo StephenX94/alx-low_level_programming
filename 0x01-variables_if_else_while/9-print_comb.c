@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - prints alpha in lower case
+ * main - prints all combination of signle digits
  * Return: Always 0
  */
 int main(void)
@@ -20,4 +20,5 @@ int main(void)
 		}
 	putchar('\n');
 	return (0);
+	}
 }
