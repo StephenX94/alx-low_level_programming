@@ -3,16 +3,17 @@
 #include <time.h>
 
 /**
- * main - prints alpha in lower case
+ * main - prints alphabet  in lower case
+ * followed by a new line, except q and e
  * Return: Always 0
  */
 int main(void)
 {
 	char la;
 
-	for (la = 'a'; la <= 'v'; la++)
+	for (la = 'a'; la <= 'z'; la++)
 	{
-		if (la != 'e' && la != 'q;)
+		if (la != 'e' && la != 'q')
 			putchar(la);
 	}
 
